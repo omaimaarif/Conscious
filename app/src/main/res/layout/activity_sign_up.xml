@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07000000"
+    tools:context=".sign_up">
+
+    <TextView
+        android:id="@+id/sign_t"
+        android:layout_width="221dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text=" التسجيل"
+        android:textColor="#BE99D0CD"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:background="@drawable/btn_bold"
+        android:ems="10"
+        android:hint="الإسم الأول"
+        android:inputType="textPersonName"
+        android:paddingRight="20dp"
+        android:textColorHint="#79000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:background="@drawable/btn_bold"
+        android:ems="10"
+        android:hint="الإسم الأخير"
+        android:inputType="textPersonName"
+        android:paddingRight="20dp"
+        android:textColorHint="#79000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:background="@drawable/btn_bold"
+        android:ems="10"
+        android:hint="البريد الألكتروني"
+        android:inputType="textEmailAddress"
+        android:paddingRight="20dp"
+        android:textColorHint="#79000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <EditText
+        android:id="@+id/pass_sign"
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:background="@drawable/btn_bold"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="إنشاء كلمة مرور"
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:textAlignment="gravity"
+        android:textColorHint="#79000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/si_bu"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_bold"
+        android:backgroundTint="#BE99D0CD"
+        android:text="إنشاء حساب"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHighlight="#BE99D0CD"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:background="@drawable/btn_bold"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Facebook"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:background="@drawable/btn_bold"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Google"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <RadioGroup
+        android:id="@+id/genderGr"
+        android:layout_width="284dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="128dp"
+            android:layout_height="51dp"
+            android:paddingRight="20dp"
+            android:text="ذكر"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="158dp"
+            android:layout_height="53dp"
+            android:textAlignment="center"
+            android:paddingRight="30dp"
+            android:text="أنثى"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

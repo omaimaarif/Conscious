@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/check_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_photo"
+    tools:context=".quiz">
+
+
+    <GridLayout
+        android:id="@+id/grid_qu"
+        android:layout_width="wrap_content"
+        android:layout_height="503dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="89dp"
+        android:columnCount="1"
+        android:rowCount="2">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/qu2"
+            android:layout_width="345dp"
+            android:layout_height="77dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardMaxElevation="8dp">
+
+            <LinearLayout
+                android:id="@+id/another_line"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ready"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_w"
+                    android:backgroundTint="#6399D0CD"
+                    android:fontFamily="@font/almarai_light"
+                    android:text="حدد المستوى لنبدأ العداد اليومي"
+                    android:textAlignment="center"
+                    android:textColor="#B0000000"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/qu3"
+            android:layout_width="351dp"
+            android:layout_height="223dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardMaxElevation="8dp">
+
+            <LinearLayout
+                android:id="@+id/line_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/testes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:fontFamily="@font/almarai_light"
+                    android:text="هل أنا مُدمن؟\n يساعدك هذا الإختبار في التأكد\n إن كنت مدمنًا"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btn_w"
+                    android:backgroundTint="#6399D0CD"
+                    android:fontFamily="@font/almarai_light"
+                    android:text="إختبر الآن"
+                    android:textColor="#B0000000"
+                    android:textSize="18sp">
+
+                </Button>
+            </LinearLayout>
+            />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

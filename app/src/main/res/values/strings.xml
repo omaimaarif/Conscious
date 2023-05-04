@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">one_proj</string>
+    <string name="profile_op">Profile</string>
+    <string name="home_op">Home</string>
+    <string name="invite_friends">invite friends</string>
+    <string name="settings">Settings</string>
+    <string name="others">Others</string>
+    <string name="about_us">About us</string>
+    <string name="log_out">Log out</string>
+    <string name="question_num">1/5</string>
+    <string name="score1">score 0/5</string>
+
+    <string name="question1">الاستحواذ الفكري:\n لا تستطيع منع نفسك من التفكير في مادةأونشاط معين؟</string>
+    <string name="question1_A">دائما</string>
+    <string name="question1_B">أقكر بجدية في أوقات متباعدة</string>
+    <string name="question1_C">في أوقات فراغي فقط</string>
+    <string name="question1_D">كلا</string>
+    <string name="answer_1">دائما</string>
+
+    <string name="question2">هل يؤثر المادة|النشاط الذي تفكر به بشكل سلبي على صحتك وعلاقتك بأسرتك؟</string>
+    <string name="question2_2A">دائما</string>
+    <string name="question2_2B">أقكر بجدية في أوقات متباعدة</string>
+    <string name="question2_2C">في أوقات فراغي فقط</string>
+    <string name="question2_2D">كلا</string>
+    <string name="answer_2">دائما</string>
+
+    <string name="question3">هل الأمر المعني,تهرب اليه عنما تحيط بك المشاكل في حياتك؟</string>
+    <string name="question3_3A">دائما</string>
+    <string name="question3_3B">أقكر بجدية في أوقات متباعدة</string>
+    <string name="question3_3C">في أوقات فراغي فقط</string>
+    <string name="question3_3D">كلا</string>
+    <string name="answer_3">دائما</string>
+
+    <string name="question4">هل لاحظت فقدان السيطرة على نفسك فور دخول المادة|النشاط على حياتك؟</string>
+    <string name="question4_4A">دائما</string>
+    <string name="question4_4B">أقكر بجدية في أوقات متباعدة</string>
+    <string name="question4_4C">في أوقات فراغي فقط</string>
+    <string name="question4_4D">كلا</string>
+    <string name="answer_4">دائما</string>
+
+    <string name="question5">أخيرًا,هَل أنكرت شعور الادمان في داخلك خلال اجابتك على الاسئلة السابقة؟</string>
+    <string name="question5_5A">دائما</string>
+    <string name="question5_5B">أقكر بجدية في أوقات متباعدة</string>
+    <string name="question5_5C">في أوقات فراغي فقط</string>
+    <string name="question5_5D">كلا</string>
+    <string name="answer_5">دائما</string>
+    <string name="selectionoption">selectionoption</string>
+    <string name="correctanswer">correctanswer</string>
+
+
+    <string name="question_one">هل حاولت التقليل من استخدام هذه المادة أو الإقلاع عنها ولكنك لم تنجح؟</string>
+    <string name="question_one_A">نعم,دائمًا</string>
+    <string name="question_one_B">حاولت,ولم انجح</string>
+    <string name="question_one_C">فكرت في الأمر,لكني لم أبدأ بعد</string>
+    <string name="question_one_D">لم احاول</string>
+    <string name="answer_one">نعم,دائمًا</string>
+
+    <string name="question_two">هل واصلت استخدام/فعل المادة(أو السلوك) على الرغم من معرفة العواقب السلبية التي يمكن أن تحدثها على صحتك ورفاهيتك؟</string>
+    <string name="question_two_A">نعم</string>
+    <string name="question_two_B">حاولت التخلي ولم أنجح</string>
+    <string name="question_two_C">تخليت فترة,وعدت</string>
+    <string name="question_two_D">أمضيت شوطًا جيداً به</string>
+    <string name="answer_two">نعم</string>
+
+    <string name="question_three">هل واجهت عواقب سلبية بسبب تعاطي الشيء الذي أدمنت ، مثل المشاكل القانونية أو مشاكل العلاقات؟</string>
+    <string name="question_three_A">نعم دائما</string>
+    <string name="question_three_B">احيانا فقط</string>
+    <string name="question_three_C">حصلت مرة أو مرتين</string>
+    <string name="question_three_D">كلا</string>
+    <string name="answer_three">نعم دائما</string>
+
+    <string name="question_four">كم معدل الساعات التي تقضيها في التفكير في الشيء الذي أدمنته؟</string>
+    <string name="question_four_A">من(8-6)أو اكثر</string>
+    <string name="question_four_B">حوالي 4 ساعات</string>
+    <string name="question_four_C">ساعتان</string>
+    <string name="question_four_D">أقل من ذلك</string>
+    <string name="answer_four">من(8-6)أو اكثر</string>
+
+    <string name="question_five">هل تخليت عن نشاط وهواية مهمة في حياتك بعد ادمانك؟ولم تستطع المتابعة أو التركيز فيها</string>
+    <string name="question_five_A">نعم كان لدي</string>
+    <string name="question_five_B">نعم لكنّي استطعت المتابعة بعدها </string>
+    <string name="question_five_C">لم تكن لي هواية مهمة لهذا الحد</string>
+    <string name="question_five_D">كلا</string>
+    <string name="answer_five">نعم كان لدي</string>
+
+
+
+
+
+</resources>

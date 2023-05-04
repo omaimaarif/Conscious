@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/profile_op"
+    android:title="@string/profile_op"
+    android:icon="@drawable/edit">
+
+</item>
+    <item
+        android:id="@+id/home"
+        android:title="@string/home_op"
+        android:icon="@drawable/home">
+    </item>
+    <item
+        android:id="@+id/invite"
+        android:title="@string/invite_friends"
+        android:icon="@drawable/invite">
+    </item>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/settings"
+        android:icon="@drawable/setting1">
+    </item>
+
+    <item android:id="@+id/other_op"
+        android:title="@string/others">
+     <menu>
+         <item
+             android:id="@+id/about"
+             android:title="@string/about_us"
+             android:icon="@drawable/message">
+         </item>
+         <item
+             android:id="@+id/logout"
+             android:title="@string/log_out"
+             android:icon="@drawable/off">
+         </item>
+
+     </menu>
+    </item>
+</menu>
